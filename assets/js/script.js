@@ -22,7 +22,7 @@ $('#search-form').on('submit', function (event) {
 processForm = async(city) => {
     //console.log(city);
   
-    const APIkey = "5b2375941e9dbbfe2c656322b8b09720"
+    const APIkey = "xxx"
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&limit=5&appid=${APIkey}`;
     const location =  await getApiData(apiUrl);
  

@@ -1,2 +1,1 @@
-# jquery-weather-api
-Fetch weather API using jQuery
+# 5day-weather-forecast-with-javascript
